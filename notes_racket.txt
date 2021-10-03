@@ -12,7 +12,6 @@
 
 - in Racket functions are (formally) called procedures
     - What is the difference between a function and a method?
-        - the method is part of a class and hence has access to *this
 
 
 - What is a predicate?
