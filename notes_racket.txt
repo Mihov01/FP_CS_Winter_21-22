@@ -1,0 +1,81 @@
+###################################################################################################
+# Week 1
+###################################################################################################
+- extension for racket files: .rkt
+- Edit/Preferences/Editing/Racket put ticks everywhere
+- Shortcuts
+    - Esc + p for using the previous input in interpreter window
+    - Cntr + F5 for running the code in the text editor window
+    - the two windows are independent, so feel free to test code in the interpreter window even if the code in the text editor window is incomplete
+- IMPORTANT NOTE: DrRacket DOES NOT autosave.
+
+
+- in Racket functions are (formally) called procedures
+    - What is the difference between a function and a method?
+        - the method is part of a class and hence has access to *this
+
+
+- What is a predicate?
+    - A procedure that returns a boolean value.
+
+
+- types of processes:
+    - linearly recursive:
+        - The result is stored in a recursive tail.
+        - The recursive call is part of an expression.
+    - linearly iterative:
+        - The result is stored as a variable that is part of ANOTHER local procedure. Often the variable is named "result" and the procedure - "helper".
+        - The recursive call is not part of an expression.
+            - these processes are faster than the linearly recursive ones!
+
+
+- What is a declaration and what is a definition?
+    int add(const int x, const int y)       <-- DECLARATION
+    {                                       <-- DEFINITION
+        return x + y;                       <-- DEFINITION
+    }                                       <-- DEFINITION
+
+
+- Comments:
+    ; This is a one line comment
+    #|
+    This
+    is
+    a multiline comment.
+    |#
+
+
+- built-in data types
+    - boolean: #t #f
+    - numbers: 1, 1.5, 2+3i
+    - strings: "hello"
+    - Pairs: '(1 . 2)
+    - Lists: '(1 2 3 4 5)
+    - conventions for identifiers:
+        - myProgram vs. my_program vs. my-program
+        - predicate => suffix "?"
+
+
+- procedures
+    - display
+    - =, equal?, not, and, or
+    - /, quotient, remainder
+    - cond (analogous to "switch" in C++)
+    - expt
+
+
+- write the hello world procedure
+
+
+- key words to watch out for in an exam
+    - естествено
+    - неотрицателно
+    - неположително
+    - положително
+    - индекс, ...
+
+
+- вложени процедури
+    - Възможно ли е тази процедура да се използва от други?
+        - Да => дефинираме като глобална
+        - Не => дефинираме като вложена/вътрешна

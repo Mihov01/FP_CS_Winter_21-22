@@ -14,9 +14,9 @@
     - new algorithm
 
 # Resources
+- [Racket API](https://docs.racket-lang.org/reference/)
 - [CHEAT SHEET](https://docs.racket-lang.org/racket-cheat/index.html)
 - [Working with lists and pairs](https://docs.racket-lang.org/reference/pairs.html)
-- [Youtube playlist](https://www.youtube.com/watch?v=bq25PHiRVfM&list=PLsWq88lFdQCfZtDRUQVuGGbnthiEIeQdf)
 - [Some built-in procedures](https://www.cs.cmu.edu/Groups/AI/html/r4rs/r4rs_8.html)
 - [Install DrRacket](https://download.racket-lang.org/)
 - [Introduction to Racket and Dr. Racket](https://www.youtube.com/watch?v=j63O7A-ZKHk)
