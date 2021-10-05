@@ -20,3 +20,8 @@
 - [Some built-in procedures](https://www.cs.cmu.edu/Groups/AI/html/r4rs/r4rs_8.html)
 - [Install DrRacket](https://download.racket-lang.org/)
 - [Introduction to Racket and Dr. Racket](https://www.youtube.com/watch?v=j63O7A-ZKHk)
+
+# Lastly: Don't be afraid to ask questions
+> He who asks a question is a fool for five minutes; he who does not ask a question remains a fool forever.
+
+-Chinese Proverb

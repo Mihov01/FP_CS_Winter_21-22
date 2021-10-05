@@ -1,6 +1,7 @@
 ###################################################################################################
 # Week 1
 ###################################################################################################
+- Racket is PREFIX, i.e. first write the procedure and then write its arguments
 - extension for racket files: .rkt
 - Edit/Preferences/Editing/Racket put ticks everywhere
 - Shortcuts
@@ -12,9 +13,11 @@
 
 - in Racket functions are (formally) called procedures
     - What is the difference between a function and a method?
+        - the method is part of a class and hence has access to *this
 
 
 - What is a predicate?
+    A procedure that returns a boolean value.
 
 
 - types of processes:
@@ -28,6 +31,10 @@
 
 
 - What is a declaration and what is a definition?
+    int add(const int x, const int y)       <-- declaration
+    {                                       <-- definition
+        return x + y;                       <-- definition
+    }                                       <-- definition
 
 
 - Comments:

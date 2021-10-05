@@ -1,3 +1,6 @@
+# Task 0
+Write the "Hello, world" procedure.
+
 # Task 1
 Define procedures that return:
  - the smaller of two whole numbers:
@@ -38,6 +41,58 @@ Test cases:
     (= (average-whole 5 1542) 773.5)
 
 # Task 2
+Define two procedures that return the sum of the cubes of two numbers:
+
+ - using a built-in procedure;
+ - **without** using built-in procedures.
+
+Test cases:
+
+    (= (sum-cubes-pow 5 1) 126)
+    (= (sum-cubes-pow 10 50) 126000)
+
+    (= (sum-cubes-no-pow 5 1) 126)
+    (= (sum-cubes-no-pow 10 50) 126000)
+
+# Task 3
+Define a procedure that returns the average of the sum of the squares of two numbers.
+
+Test cases:
+
+    (= (sq-avg 5 0) 12.5)
+    (= (sq-avg 10 13) 134.5)
+
+# Task 4
+Define a recursive and an iterative procedure for calculating the factorial of a non-negative whole number.
+
+Implementation detail:
+
+    Add a test case with a negative number!
+
+Test cases:
+
+    (= (fact-rec 0) 1)
+    (= (fact-rec 1) 1)
+    (= (fact-rec 11) 39916800)
+
+    (= (fact-iter 0) 1)
+    (= (fact-iter 1) 1)
+    (= (fact-iter 11) 39916800)
+
+# Task 5
+Define a recursive procedure and an iterative procedure for calculating the number at index *i* in the Fibonacci sequence (0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...).
+
+Implementation detail:
+
+    Add a test case with a negative number!
+
+Test cases:
+
+    (= (fib-rec 11) 89)
+
+    (= (fib-iter 11) 89)
+
+# Task 6
 Define predicates that check:
  - whether two numbers are not equal:
     - **in one line without using** if-else;
@@ -65,35 +120,7 @@ Test cases:
     (equal? (inside-boolean-ops? 10 50 200) #f)
     (equal? (inside-boolean-ops? 10 50 1) #f)
 
-# Task 3
-Define a recursive and an iterative procedure for calculating the factorial of a non-negative whole number.
-
-Implementation detail:
-
-    Add a test case with a negative number!
-
-Test cases:
-
-    (= (fact-rec 0) 1)
-    (= (fact-rec 1) 1)
-    (= (fact-rec 11) 39916800)
-    (= (fact-iter 0) 1)
-    (= (fact-iter 1) 1)
-    (= (fact-iter 11) 39916800)
-
-# Task 4
-Define a recursive procedure for calculating the number at index *i* in the Fibonacci sequence (0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...).
-
-Implementation detail:
-
-    Add a test case with a negative number!
-
-Test cases:
-
-    (= (fib 11) 89)
-
-# For home
-# Task 1
+# Task 7
 Define two procedures that return whether a number is even:
 
  - using if-else;
@@ -109,29 +136,8 @@ Test cases:
     (equal? (is-even-guards 15452) "Yes")
     (equal? (is-even-guards 321) "No")
 
-# Task 2
-Define two procedures that return the sum of the cubes of two numbers:
-
- - using a built-in procedure;
- - **without** using built-in procedures.
-
-Test cases:
-
-    (= (sum-cubes-pow 5 1) 126)
-    (= (sum-cubes-pow 10 50) 126000)
-
-    (= (sum-cubes-no-pow 5 1) 126)
-    (= (sum-cubes-no-pow 10 50) 126000)
-
-# Task 3
-Define a procedure that returns the average of the sum of the squares of two numbers.
-
-Test cases:
-
-    (= (sq-avg 5 0) 12.5)
-    (= (sq-avg 10 13) 134.5)
-
-# Task 4
+# For home
+# Task 1
 The Euclidean Algorithm for finding GCD(x,y) is as follows:
 
     If x = 0 then GCD(x,y)=y.
@@ -149,7 +155,7 @@ Test cases:
     (= (my-gcd 5 13) 1)
     (= (my-gcd 13 1235) 13)
 
-# Task 5
+# Task 2
 Define two predicates that check whether a year is a leap year.
 
 The first should be called *leap-year-one-line?*. It should implement *Method I* using **boolean logical operators**.
@@ -186,7 +192,7 @@ Test cases:
     (equal? (is-leap-year-guards? 1800) #f)
     (equal? (is-leap-year-guards? 2100) #f)
 
-# Task 6
+# Task 3
 John has a backpack. With it he can carry *k* kilograms. An item from the supermarket weighs *w* kilograms.
 
 Define a predicate that accepts three numbers - *c* (number of products), *k* and *w* and returns whether John is capable of buying all the products in one trip to the supermarket.
@@ -208,7 +214,7 @@ Test cases:
     ; (can-carry? 13 -25 2) ; error: John's hosting capacity was negative
     ; (can-carry? 13 25 -2) ; error: The weight of a product was negative
 
-# Task 7
+# Task 4
 Each **day** a plant is growing by *upSpeed* meters. Each **night** that plants height decreases by *downSpeed* meters due to the lack of sun light. Initially, plant is 0 meters tall. We plant the seed at the beginning of a day. We want to know how many days it will take for the plant to reach a certain height.
 
 Test cases:
@@ -248,7 +254,7 @@ Explanations:
 
         After day 1 --> 10
 
-# Task 8
+# Task 5
 A snail crawls up a column. During the day it crawls up some distance. During the night it sleeps, so it slides down for some distance (less than it crawls up during the day).
 
 Your procedure accepts three arguments:
@@ -266,7 +272,7 @@ Test cases:
     (= (snail 100 20 5) 7)
     (= (snail 5 10 3) 1)
 
-# Task 9
+# Task 6
 Define a procedure that reverses a **non-negative** number by implementing a **linearly iterative process**.
 
 Test cases:
