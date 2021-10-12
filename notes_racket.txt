@@ -126,3 +126,32 @@
 |                       |
 |                       |
 Do not forget the brackets!
+
+- make a Facebook chat (FP_CS_21-22)
+
+
+###################################################################################################
+# Week 2
+###################################################################################################
+For home:
+	WARNING:
+		Getting a “Yes” DOES NOT mean getting a bonus.
+
+Import a library:
+	- (require math/number-theory) ; API: https://docs.racket-lang.org/math/number-theory.html
+	- (require racket/trace)
+
+Procedures:
+	- (divides? y x): Whether y divides x with remainder=0.
+		- (divides? 5 25) -> #t
+		- (divides? 5 19) -> #f
+		- (divides? 10 66) -> #f ; same as (= (remainder 66 10) 0)
+		- (divides? 10 100) -> #t
+	- (prime? x): Whether x is a prime number.
+		- (prime? 7) -> #t
+	- (even? x): Whether x is an even number.
+		- (even? 7) -> #f
+	- (odd? x): Whether x is an odd number.
+		- (odd? 7) -> #t
+	- (trace <f-name>): See what calculations happen where. VERY USEFUL FOR DEBUGGING!
+

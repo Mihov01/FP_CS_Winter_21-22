@@ -16,6 +16,7 @@
 # Resources
 - [Racket API](https://docs.racket-lang.org/reference/)
 - [CHEAT SHEET](https://docs.racket-lang.org/racket-cheat/index.html)
+- [Working with numbers](https://docs.racket-lang.org/math/number-theory.html)
 - [Working with lists and pairs](https://docs.racket-lang.org/reference/pairs.html)
 - [Some built-in procedures](https://www.cs.cmu.edu/Groups/AI/html/r4rs/r4rs_8.html)
 - [Install DrRacket](https://download.racket-lang.org/)

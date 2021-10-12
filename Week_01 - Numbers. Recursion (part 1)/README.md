@@ -215,18 +215,18 @@ Test cases:
     ; (can-carry? 13 25 -2) ; error: The weight of a product was negative
 
 # Task 4
-Each **day** a plant is growing by *upSpeed* meters. Each **night** that plants height decreases by *downSpeed* meters due to the lack of sun light. Initially, plant is 0 meters tall. We plant the seed at the beginning of a day. We want to know how many days it will take for the plant to reach a certain height.
+Each **day** a plant is growing by *up-speed* meters. Each **night** that plants height decreases by *down-speed* meters due to the lack of sun light. Initially, plant is 0 meters tall. We plant the seed at the beginning of a day. We want to know how many days it will take for the plant to reach a certain height.
 
 Test cases:
 
     (= (growing-plant 5 2 5) 1)
     (= (growing-plant 5 2 6) 2)
     (= (growing-plant 10 9 4) 1)
-    (= (growing-plant 100 10 910) 10) ; upSpeed=100, downSpeed=10, desiredHeight=910
+    (= (growing-plant 100 10 910) 10) ; up-speed=100, down-speed=10, desired-height=910
 
 Explanations:
 
-- For upSpeed = 100, downSpeed = 10 and desiredHeight = 910, the output should be 10.
+- For up-speed = 100, down-speed = 10 and desired-height = 910, the output should be 10.
 
         After day 1   --> 100
         After night 1 --> 90
@@ -248,7 +248,7 @@ Explanations:
         After night 9 --> 810
         After day 10  --> 910 
 
-- For upSpeed = 10, downSpeed = 9 and desiredHeight = 4, the output should be 1.
+- For up-speed = 10, down-speed = 9 and desired-height = 4, the output should be 1.
 
         Because the plant reaches the desired height at day 1 (10 meters).
 
