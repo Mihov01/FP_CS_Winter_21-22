@@ -99,6 +99,9 @@ Test cases:
 
     (= (count-digits-iter 12345) 5)
     (= (count-digits-iter 123) 3)
+
+    (= (count-digits-rec 12345) 5)
+    (= (count-digits-rec 123) 3)
     ; (count-digits-iter -13) ; error "n was negative"
 
 # Task 2
@@ -111,24 +114,28 @@ Test cases:
     ; (sum-digits-iter -13) ; error "n was negative"
 
 # Task 3
-Define a procedure that returns the sum of all prime divisors of a given number.
+Define a recursive procedure that returns the sum of all prime divisors of a given number.
 
 Test cases:
 
-    (= (sum-prime-divs 0) 0)
-    (= (sum-prime-divs 6) 5) ; 2 + 3
-    (= (sum-prime-divs 18) 5) ; 2 + 3
-    (= (sum-prime-divs 19) 19)
-    (= (sum-prime-divs 45136) 53)
+    (= (sum-prime-divs-rec 0) 0)
+    (= (sum-prime-divs-rec 6) 5) ; 2 + 3
+    (= (sum-prime-divs-rec 18) 5) ; 2 + 3
+    (= (sum-prime-divs-rec 19) 19)
+    (= (sum-prime-divs-rec 45136) 53)
 
 # Task 4
-Define a procedure that returns the number of palindromes in the interval [a, b].
+Define a recursive and an iterative procedure that returns the number of palindromes in the interval [a, b].
 
 Test case:
 
-    (= (num-palindromes 1 101) 19)
-    (= (num-palindromes 1 100) 18)
-    (= (num-palindromes 100 1) 18)
+    (= (num-palindromes-rec 1 101) 19)
+    (= (num-palindromes-rec 1 100) 18)
+    (= (num-palindromes-rec 100 1) 18)
+
+    (= (num-palindromes-iter 1 101) 19)
+    (= (num-palindromes-iter 1 100) 18)
+    (= (num-palindromes-iter 100 1) 18)
 
 # Task 5
 Define a predicate that checks whether two numbers are amicable.
