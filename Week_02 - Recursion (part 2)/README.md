@@ -211,7 +211,7 @@ Test cases:
     ; (automorphic? 0) ; error: n was not natural
 
 # Task 11
-A cubic prime number is a prime number that is the difference between two subsequent natural numbers. For example, 61 is such a number because 61 = 5<sup>3</sup> - 4<sup>3</sup>. Define a linearly-recursive procedure that returns the n<sup>th</sup> cubic prime number.
+A cubic prime number is a prime number that is the difference between two subsequent natural numbers. For example, 61 is such a number because 61 = 5<sup>3</sup> - 4<sup>3</sup>.
 
 Test cases:
 
