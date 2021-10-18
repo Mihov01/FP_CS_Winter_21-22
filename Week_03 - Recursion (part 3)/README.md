@@ -82,9 +82,9 @@ Test cases:
     (= (digital-root 493193) 2)
 
 # Task 7
-Define the procedure sine, that accepts a whole number and a real number (representing radians) and returns the n-th partial sum of sin(x).
+Define the procedure that accepts a whole number - *n*, and a real number (representing radians) - *x*, and returns the n<sup>th</sup> partial sum of *sin(x)*.
 
-Reference the formula for writing sin(x) around the origin:
+Reference the formula for writing *sin(x)* around the origin:
 
 ![Alt text](./assets/sine.png?raw=true "Task5")
 
@@ -159,7 +159,7 @@ For example:
 
 ![Alt text](./assets/pentagon.png?raw=true "pentagon")
 
-Define an iterative function that accepts a natural number - *n*, and returns the *n*-th pentagonal number.
+Define an iterative procedure that accepts a natural number - *n*, and returns the *n*-th pentagonal number.
 
 Test cases:
 
