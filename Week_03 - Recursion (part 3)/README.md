@@ -128,7 +128,7 @@ Test cases:
     (= (sort-n 329450) 954320)
     (= (sort-n 9125) 9521)
 
-# Task 4
+# Task 3
 Define a procedure that accepts two real numbers and calculates the n-th partial sum from the following sequence:
 
 ![Alt text](./assets/sequence.png?raw=true "sequence")
@@ -143,7 +143,7 @@ Test cases:
     (calc-series-sum 1 5) ; -1 29/385
     (calc-series-sum 1 6) ; -1 937/12285
 
-# Task 6
+# Task 4
 Define a recursive procedure *(sum-divisible-numbers start finish k)* that returns the sum of all numbers from the interval [*start*, *finish*] whose digits sum up to a number that is evenly divisible by *k*.
 
 Test cases:
@@ -152,7 +152,7 @@ Test cases:
     (= (sum-divisible-numbers 0 100 5) 990)
     (= (sum-divisible-numbers 100 0 5) 990)
 
-# Task 7
+# Task 5
 A number - *x*, is a pentagonal number if we can plot *x* poits in the form of a pentagon on a plain.
 
 For example:
